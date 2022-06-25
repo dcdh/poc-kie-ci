@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  business-central:
+#    image: quay.io/kiegroup/business-central-workbench-showcase:7.71.0.Final
+    image: jboss/business-central-workbench-showcase:7.61.0.Final
+    ports:
+      - "8080:8080"
+      - "8001:8001"
